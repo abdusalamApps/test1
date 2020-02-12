@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+Body {
+	width: 100%;
+	font-family: ABeeZee, sans-serif;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+h1 {
+	margin-bottom: 2em;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
